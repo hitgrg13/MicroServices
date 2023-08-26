@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Two {
@@ -14,6 +15,11 @@ public class Two {
        System.out.println(b);
 
        System.out.println(a.toString());
-       ss
+        LinkedList<String> h= new LinkedList<String>();
+        h.add("first String");
+        h.add("second String");
+
+        System.out.println(h);
+        System.out.println(h.get(1));
     }
 }
